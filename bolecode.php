@@ -5,7 +5,7 @@ use Itau\API\Itau;
 use Itau\API\BoleCode\BoleCode;
 
 try{
-    
+
     $itau = new Itau(
         "281145a2-fc79-4363-94d3-27dcf4b6af91",
         "1fd112c8-21fd-4040-9002-63c05f77b3aa",
@@ -13,6 +13,7 @@ try{
         "acgnet/acgnet.key"
     );
 
+    #Anderson
     #Descomente este trecho caso queira imprimir na tela o JSON da requisição
     $itau->setDebug(true);
 
