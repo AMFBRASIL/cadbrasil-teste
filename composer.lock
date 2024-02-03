@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b47289324dcb859108977af471338e57",
+    "packages": [
+        {
+            "name": "leandroferreirama/api-itau",
+            "version": "v2.1.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leandroferreirama/api-itau.git",
+                "reference": "2eb06d2e8eb51dd4798be05f30868f906ce93ba7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leandroferreirama/api-itau/zipball/2eb06d2e8eb51dd4798be05f30868f906ce93ba7",
+                "reference": "2eb06d2e8eb51dd4798be05f30868f906ce93ba7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Itau\\": "src//Itau"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leandro Ferreira",
+                    "email": "suporte@integracaosistema.com.br"
+                }
+            ],
+            "description": "SDK php para integração com a API Itau",
+            "homepage": "https://github.com/leandroferreirama/api-itau",
+            "support": {
+                "issues": "https://github.com/leandroferreirama/api-itau/issues",
+                "source": "https://github.com/leandroferreirama/api-itau/tree/v2.1.14"
+            },
+            "time": "2024-01-26T17:01:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
